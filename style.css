@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.zse-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.zse {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
